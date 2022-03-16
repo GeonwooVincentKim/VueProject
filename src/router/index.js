@@ -3,11 +3,15 @@ import HomeView from '../views/HomeView.vue'
 
 const routes = [
   {
+    // Path -> Home
+    // Name -> Home
     path: '/',
     name: 'home',
     component: HomeView
   },
   {
+    // Path -> About
+    // Name -> About
     path: '/about',
     name: 'about',
     // route level code-splitting
