@@ -1,8 +1,7 @@
 <template>
     <div>
         <div>{{htmlString}}</div>
-        <!-- <div v-html="htmlString" id="html-id"></div> -->
-        <div v-html="htmlString"></div>
+        <div v-html="htmlString" id="html-id"></div>
     </div>
 </template>
 <script>
