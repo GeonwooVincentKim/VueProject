@@ -11,6 +11,8 @@ import DataBindingCheckbox2 from "../views/DataBindingCheckbox2.vue";
 import DataBindingAttribute from "../views/DataBindingAttribute.vue";
 import DataBindingButton from "../views/DataBindingButton";
 
+import DataBindingClass from "../views/DataBindingClass";
+
 const routes = [
   {
     // Path -> Home
@@ -78,6 +80,11 @@ const routes = [
     path: '/dataBindingButton',
     name: "DataBindingButton",
     component: DataBindingButton
+  },
+  {
+    path: '/dataBindingClass',
+    name: "DataBindingClass",
+    component: DataBindingClass
   }
 ]
 
