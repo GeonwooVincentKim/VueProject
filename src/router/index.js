@@ -12,6 +12,7 @@ import DataBindingAttribute from "../views/DataBindingAttribute.vue";
 import DataBindingButton from "../views/DataBindingButton";
 
 import DataBindingClass from "../views/DataBindingClass";
+import DataBindingClass2 from "../views/DataBindingClass2";
 
 const routes = [
   {
@@ -85,6 +86,11 @@ const routes = [
     path: '/dataBindingClass',
     name: "DataBindingClass",
     component: DataBindingClass
+  },
+  {
+    path: '/dataBindingClass2',
+    name: "DataBindingClass2",
+    component: DataBindingClass2
   }
 ]
 
