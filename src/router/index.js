@@ -5,14 +5,17 @@ import DataBindingHtml from "../views/DataBindingHtml.vue";
 import DataBindingInputText from "../views/DataBindingInputText.vue";
 import DataBindingInputNumber from "../views/DataBindingInputNumber.vue";
 import DataBindingTextarea from "../views/DataBindingTextarea.vue";
-import DataBindingSelect from "../views/DataBindingSelect";
+import DataBindingSelect from "../views/DataBindingSelect.vue";
 import DataBindingCheckbox from "../views/DataBindingCheckbox.vue";
 import DataBindingCheckbox2 from "../views/DataBindingCheckbox2.vue";
 import DataBindingAttribute from "../views/DataBindingAttribute.vue";
-import DataBindingButton from "../views/DataBindingButton";
+import DataBindingButton from "../views/DataBindingButton.vue";
 
-import DataBindingClass from "../views/DataBindingClass";
-import DataBindingClass2 from "../views/DataBindingClass2";
+import DataBindingClass from "../views/DataBindingClass.vue";
+import DataBindingClass2 from "../views/DataBindingClass2.vue";
+
+import DataBindingStyle from "../views/DataBindingStyle.vue";
+import DataBindingInlineStyle from "../views/DataBindingInlineStyle.vue";
 
 const routes = [
   {
@@ -91,6 +94,16 @@ const routes = [
     path: '/dataBindingClass2',
     name: "DataBindingClass2",
     component: DataBindingClass2
+  },
+  {
+    path: '/dataBindingStyle',
+    name: "DataBindingStyle",
+    component: DataBindingStyle
+  },
+  {
+    path: '/dataBindingInlineStyle',
+    name: "DataBindingInlineStyle",
+    component: DataBindingInlineStyle
   }
 ]
 
