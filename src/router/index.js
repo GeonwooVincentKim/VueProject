@@ -7,6 +7,7 @@ import DataBindingInputNumber from "../views/DataBindingInputNumber.vue";
 import DataBindingTextarea from "../views/DataBindingTextarea.vue";
 import DataBindingSelect from "../views/DataBindingSelect";
 import DataBindingCheckbox from "../views/DataBindingCheckbox.vue";
+import DataBindingCheckbox2 from "../views/DataBindingCheckbox2.vue";
 
 const routes = [
   {
@@ -60,6 +61,11 @@ const routes = [
     path: '/dataBindingCheckbox',
     name: "DataBindingCheckbox",
     component: DataBindingCheckbox
+  },
+  {
+    path: '/dataBindingCheckbox2',
+    name: "DataBindingCheckbox2",
+    component: DataBindingCheckbox2
   }
 ]
 

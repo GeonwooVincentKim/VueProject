@@ -8,7 +8,8 @@
     <router-link to="/dataBindingInputNumber">Data Binding Input Number</router-link> | 
     <router-link to="/dataBindingTextarea">Data Binding Textarea</router-link> | 
     <router-link to="/dataBindingSelect">Data Binding Select</router-link> | 
-    <router-link to="./dataBindingCheckbox">Data Binding Check Box</router-link>
+    <router-link to="./dataBindingCheckbox">Data Binding Check Box</router-link> | 
+    <router-link to="./dataBindingCheckbox2">Data Binding Check Box 2</router-link>
   </nav>
   <router-view/>
 </template>
