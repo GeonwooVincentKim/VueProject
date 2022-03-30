@@ -6,7 +6,8 @@
     <router-link to="/dataBindingClass">Data Binding Class</router-link> | 
     <router-link to="/dataBindingStyle">Data Binding Style</router-link> | 
     <router-link to="/dataBindingList">Data Binding List</router-link> | 
-    <router-link to="/renderingVIf">Rendering V If</router-link>
+    <router-link to="/renderingVIf">Rendering V If</router-link> | 
+    <router-link to="/eventClick">Event Link</router-link>
 
     <!-- <router-link to="/databinding">Data Binding</router-link> | 
     <router-link to="/databindinghtml">Data Binding HTML</router-link> | 
