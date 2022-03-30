@@ -4,6 +4,12 @@
         <option value="부산">부산</option>
         <option value="제주">제주</option>
     </select>
+
+    <div class="inputType">
+        <input @keyup.enter="submit" />
+        <input @keyup.alt.enter="clear" />
+    </div>
+    
 </template>
 <script>
 export default {
@@ -20,3 +26,7 @@ export default {
     }
 }
 </script>
+<style scoped>
+    select + div {padding: 100px 0; }
+
+</style>
