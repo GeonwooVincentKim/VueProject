@@ -17,6 +17,8 @@ import DataBindingClass2 from "../views/DataBindingClass2.vue";
 import DataBindingStyle from "../views/DataBindingStyle.vue";
 import DataBindingInlineStyle from "../views/DataBindingInlineStyle.vue";
 
+import DataBindingList from "../views/DataBindingList.vue";
+
 const routes = [
   {
     // Path -> Home
@@ -104,6 +106,11 @@ const routes = [
     path: '/dataBindingInlineStyle',
     name: "DataBindingInlineStyle",
     component: DataBindingInlineStyle
+  },
+  {
+    path: '/dataBindingList',
+    name: "DataBindingList",
+    component: DataBindingList
   }
 ]
 
