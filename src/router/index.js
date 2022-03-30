@@ -18,6 +18,7 @@ import DataBindingStyle from "../views/DataBindingStyle.vue";
 import DataBindingInlineStyle from "../views/DataBindingInlineStyle.vue";
 
 import DataBindingList from "../views/DataBindingList.vue";
+import RenderingVIf from "../views/RenderingVIf";
 
 const routes = [
   {
@@ -111,6 +112,11 @@ const routes = [
     path: '/dataBindingList',
     name: "DataBindingList",
     component: DataBindingList
+  },
+  {
+    path: '/renderingVIf',
+    name: "RenderingVIf",
+    component: RenderingVIf
   }
 ]
 
