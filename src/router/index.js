@@ -22,7 +22,7 @@ import RenderingVIf from "../views/RenderingVIf.vue";
 
 import EventClick from "../views/EventClick.vue";
 import EventChange from "../views/EventChange.vue";
-// import ClickCtrl from "../../public/clickCtrl.html";
+import ComputedExample from "../views/ComputedExample.vue";
 
 const routes = [
   {
@@ -132,11 +132,11 @@ const routes = [
     name: "EventChange",
     component: EventChange
   },
-  // {
-  //   path: '/clickCtrl',
-  //   name: "ClickCtrl",
-  //   component: ClickCtrl
-  // }
+  {
+    path: '/computedExample',
+    name: 'ComputedExample',
+    component: ComputedExample
+  }
 ]
 
 const router = createRouter({
