@@ -22,7 +22,9 @@ import RenderingVIf from "../views/RenderingVIf.vue";
 
 import EventClick from "../views/EventClick.vue";
 import EventChange from "../views/EventChange.vue";
+
 import ComputedExample from "../views/ComputedExample.vue";
+import WatchExample from "../views/WatchExample.vue";
 
 const routes = [
   {
@@ -136,6 +138,11 @@ const routes = [
     path: '/computedExample',
     name: 'ComputedExample',
     component: ComputedExample
+  },
+  {
+    path: '/watchExample',
+    name: 'WatchExample',
+    component: WatchExample
   }
 ]
 
