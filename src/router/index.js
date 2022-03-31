@@ -25,6 +25,7 @@ import EventChange from "../views/EventChange.vue";
 
 import ComputedExample from "../views/ComputedExample.vue";
 import WatchExample from "../views/WatchExample.vue";
+import WatchExample2 from "../views/WatchExample2.vue";
 
 const routes = [
   {
@@ -143,6 +144,11 @@ const routes = [
     path: '/watchExample',
     name: 'WatchExample',
     component: WatchExample
+  },
+  {
+    path: '/watchExample2',
+    name: 'WatchExample2',
+    component: WatchExample2
   }
 ]
 
