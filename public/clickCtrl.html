@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        VueJS v-on:click.ctrl directive
+    </title>
+  
+    <!-- Load Vuejs -->
+    <script src=
+"https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
+    </script>
+  
+</head>
+  
+<body>
+    <div style="text-align: center;width: 600px;">
+  
+        <h1 style="color: green;">
+            GeeksforGeeks
+        </h1>
+          
+        <b>
+            VueJS | v-on:click.ctrl directive
+        </b>
+    </div>
+  
+    <div id="canvas" style=
+            "border:1px solid #000000;
+            width: 600px;height: 200px;">
+  
+        <div id="app" style=
+            "text-align: center; 
+            padding-top: 40px;">
+            <button v-on:click.ctrl=
+                "data = !data">Show
+            </button>
+  
+            <h1 v-if="data">
+                Ctrl + Click is pressed
+            </h1>
+        </div>
+    </div>
+  
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                data: false
+            }
+        })
+    </script>
+</body>
+  
+</html>
