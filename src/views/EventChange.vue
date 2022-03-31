@@ -8,6 +8,7 @@
     <div class="inputType">
         <input @keyup.enter="submit" />
         <input @keyup.alt.enter="clear" />
+        <div @click.ctrl="doSomething">Do Something</div>
     </div>
     
 </template>
