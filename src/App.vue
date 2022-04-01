@@ -10,7 +10,8 @@
     <router-link to="/eventClick">Event Link</router-link> | 
     <!-- <router-link to="/clickCtrl.html">Click Ctrl</router-link> -->
     <router-link to="/computedExample">Computed</router-link> | 
-    <router-link to="/watchExample">Watch</router-link>
+    <router-link to="/watchExample">Watch</router-link> | 
+    <router-link to="/dataBindingList2">Data Binding List 2</router-link>
 
     <!-- <router-link to="/databinding">Data Binding</router-link> | 
     <router-link to="/databindinghtml">Data Binding HTML</router-link> | 

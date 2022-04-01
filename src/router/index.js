@@ -27,6 +27,8 @@ import ComputedExample from "../views/ComputedExample.vue";
 import WatchExample from "../views/WatchExample.vue";
 import WatchExample2 from "../views/WatchExample2.vue";
 
+import DataBindingList2 from "../views/DataBindingList2";
+
 const routes = [
   {
     // Path -> Home
@@ -149,6 +151,11 @@ const routes = [
     path: '/watchExample2',
     name: 'WatchExample2',
     component: WatchExample2
+  },
+  {
+    path: '/dataBindingList2',
+    name: "DataBindingList2",
+    component: DataBindingList2
   }
 ]
 
