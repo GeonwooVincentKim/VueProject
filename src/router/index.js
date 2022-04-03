@@ -29,6 +29,8 @@ import WatchExample2 from "../views/WatchExample2.vue";
 
 import DataBindingList2 from "../views/DataBindingList2";
 
+import NestedComponent from "../views/NestedComponent.vue";
+
 const routes = [
   {
     // Path -> Home
@@ -156,6 +158,11 @@ const routes = [
     path: '/dataBindingList2',
     name: "DataBindingList2",
     component: DataBindingList2
+  },
+  {
+    path: '/nested',
+    name: 'NestedComponent',
+    component: NestedComponent
   }
 ]
 
